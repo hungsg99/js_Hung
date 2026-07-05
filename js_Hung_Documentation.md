@@ -1,3 +1,95 @@
+### 📄 d:\js_Hung\b2\index1.html
+*Saved at: 7/5/2026, 1:48:04 PM*
+
+**[REMOVED]**
+```
+(from line ~5)
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Bài 2</title>
+
+```
+**[ADDED]**
+```
+5     	<meta charset="UTF-8">
+6     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+7     	<title>Bài 2</title>
+```
+**[REMOVED]**
+```
+(from line ~11)
+		<h1>Đây là bài 1</h1>
+
+```
+**[ADDED]**
+```
+11    	<h1>Đây là bài 1</h1>
+```
+
+---
+
+### 📄 d:\js_Hung\b2\index1.html
+*Saved at: 7/5/2026, 1:48:04 PM*
+
+**[REMOVED]**
+```
+(from line ~5)
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bài 2</title>
+
+```
+**[ADDED]**
+```
+5     		<meta charset="UTF-8">
+6     		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+7     		<title>Bài 2</title>
+```
+**[REMOVED]**
+```
+(from line ~11)
+        <h1>Đây là bài 1</h1>
+
+```
+**[ADDED]**
+```
+11    		<h1>Đây là bài 1</h1>
+```
+
+---
+
+### 📄 d:\js_Hung\b2\index1.html
+*Saved at: 7/5/2026, 1:47:53 PM*
+
+**[REMOVED]**
+```
+(from line ~11)
+        <h1></h1>
+
+```
+**[ADDED]**
+```
+11            <h1>Đây là bài 1</h1>
+```
+
+---
+
+### 📄 d:\js_Hung\b2\index1.html
+*Saved at: 7/5/2026, 1:47:50 PM*
+
+**[REMOVED]**
+```
+(from line ~11)
+        h
+
+```
+**[ADDED]**
+```
+11            <h1></h1>
+```
+
+---
+
 ### 📄 d:\js_Hung\b2\index.html
 *Saved at: 7/5/2026, 1:38:05 PM*
 
