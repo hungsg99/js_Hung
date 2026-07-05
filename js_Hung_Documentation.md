@@ -1,3 +1,19 @@
+### 📄 d:\js_Hung\b2\index.html
+*Saved at: 7/5/2026, 1:52:56 PM*
+
+**[REMOVED]**
+```
+(from line ~12)
+	<h2></h2>
+
+```
+**[ADDED]**
+```
+12    	<h2>Bài học 2</h2>
+```
+
+---
+
 ### 📄 d:\js_Hung\b2\index1.html
 *Saved at: 7/5/2026, 1:48:04 PM*
 
