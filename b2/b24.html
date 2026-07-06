@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2.4</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        td {
+            height: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width: 100%;">
+        <tr>
+            <th>Component</th>
+            <th style="width: 80%;">Display</th>
+        </tr>
+        <tr>
+            <td>Input text</td>
+            <td><input type="text" style="width: 80%; height: 30px;"></td>
+        </tr>
+        <tr>
+            <td>Textarea</td>
+            <td><textarea name="" id="text" rows="4" style="width: 80%;"></textarea></td>
+        </tr>
+        <tr>
+            <td>Button</td>
+            <td><button>Click me</button></td>
+        </tr>
+        <tr>
+            <td>Radio</td>
+            <td>
+                <input type="radio" id="r1" name="Option 1"><label for="r1">Option 1</label><br>
+                <input type="radio" id="r2" name="Option 1"><label for="r2">Option 2</label><br>
+                <input type="radio" id="r3" name="Option 1"><label for="r3">Option 3</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Multiple selection</td>
+            <td>
+                <input type="checkbox" name="check" id="chk1">
+                <label for="check">Option 1</label><br>
+                <input type="checkbox" name="check" id="chk2">
+                <label for="check">Option 2</label><br>
+                <input type="checkbox" name="check" id="chk3">
+                <label for="check">Option 3</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Dropdown</td>
+            <td>
+                <select name="cars" id="" style="width: 80px;">
+                    <option value="">Volvo</option>
+                    <option value="">Saab</option>
+                    <option value="">Opel</option>
+                    <option value="">Audi</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>File select</td>
+            <td>
+                <input type="file">
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
