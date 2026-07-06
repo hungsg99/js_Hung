@@ -5,14 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+        h1 {
+            color: wheat;
+            background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+            text-align: center;
+            line-height: 60px;
+        }
+    </style>
 </head>
 
 <body>
-    Shift + Alt + mũi tên
-    Shift + Alt + mũi tên
-    Shift + Alt + mũi tên
-    Shift + Alt + mũi tên
-    Shift + Alt + mũi tên
+    <p>
+        Shift + Alt + mũi tên
+        Shift + Alt + mũi tên
+        Shift + Alt + mũi tên
+        Shift + Alt + mũi tên
+        Shift + Alt + mũi tên
+    </p>
     <p>Ctrl + D để chỉnh sửa cùng lúc</p>
     <p>Ctrl + D để chỉnh sửa cùng lúc</p>
     <p>Nội dung</p>
@@ -34,25 +62,64 @@
     <p>Nội dung</p>
     <h1 class="title-detail mt20">
         Mỹ - Iran nguy cơ sa 'vũng lầy đàm phán' </h1>
-    <a href="https://vnexpress.net/my-iran-nguy-co-sa-vung-lay-dam-phan-5092872.html" target="_blank">Xem thêm</a>
+    <h2>
+        <a href="https://vnexpress.net/my-iran-nguy-co-sa-vung-lay-dam-phan-5092872.html" target="_blank">Xem thêm</a>
+    </h2>
     <img src="./image/pic_trulli.jpg" alt="hiển thị khi không tìm thấy" width="500">
     <!-- <img class="lg-object lg-image" src="https://i1-vnexpress.vnecdn.net/2026/07/03/AP26169532304776-1928-1783052698.jpg?w=0&amp;h=0&amp;q=100&amp;dpr=2&amp;fit=crop&amp;s=My2MVzRWXdA2lrnia0F5nw"> -->
     <!-- <iframe src="https://www.google.com/" frameborder="0" width="100%"></iframe> -->
-     <table border="2" cellpadding="5">
+    <h1>Nhúng video</h1>
+    <video width="50%" controls>
+        <source src="videos/Big Buck Bunny.mp4" type="video/mp4">
+        <source src="videos/Big Buck Bunny.ogg" type="video/ogg">
+    </video>
+    
+    <iframe title="vimeo-player" src="https://player.vimeo.com/video/1084537?h=b1b3ab5aa2" width="640" height="360"
+        frameborder="0" referrerpolicy="strict-origin-when-cross-origin"
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+        allowfullscreen></iframe>
+    <h2>
+        <a href="https://www.bigbuckbunny.org" target="_blank">Xem thêm Big Buck Bunny</a>
+    </h2>
+    <h1>HTML TABLE</h1>
+    <table>
         <tr>
-            <th colspan="2">Thông tin</th>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
         </tr>
         <tr>
-            <th>Tên</th>
-            <th>Năm sinh</th>
+            <td>Alfreds Fulterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
         </tr>
         <tr>
-            <td>Hùng</td>
-            <td>1990</td>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
         </tr>
-        
-     </table>
-
+        <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Meddel</td>
+            <td>Astria</td>
+        </tr>
+        <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>UK</td>
+        </tr>
+        <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+        </tr>
+        <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+        </tr>
+    </table>
+    <h1>List</h1>
 </body>
 
 </html>
