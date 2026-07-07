@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 3.2 Form đăng nhập</title>
+    <link rel="stylesheet" href="css/style3.css">
+
+</head>
+
+<body>
+    <h2>Login Form</h2>
+    <form action="" method="post">
+        <div class="imgcontainer">
+            <img src="images/img_avatar2.png" alt="avatar" class="avatar">
+        </div>
+        <div class="container">
+            <label for="uname"><b>User Name</b></label>
+            <input type="text" name="user" name="unname" placeholder="Enter Username" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" name="psw" placeholder="Enter Password" required>
+
+            <button type="submit">Login</button>
+
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+
+        <div class="container" style="background-color: #f1f1f1;">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+
+    </form>
+</body>
+
+</html>
