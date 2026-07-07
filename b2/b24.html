@@ -6,15 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bài 2.4</title>
     <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
         table,
-        th,
+        tr,
         td {
-            border: 1px solid black;
+            border: 2px solid black;
             border-collapse: collapse;
+            padding: 10px;
         }
 
         td {
             height: 80px;
+        }
+
+        th {
+            background-color: #668cff;
+            color: #ffff33;
+            font-size: 18px;
+            text-transform: uppercase;
+            line-height: 24px;
         }
     </style>
 </head>
@@ -48,11 +61,11 @@
         <tr>
             <td>Multiple selection</td>
             <td>
-                <input type="checkbox" name="check" id="chk1">
+                <input type="checkbox" name="check1" id="chk1">
                 <label for="check">Option 1</label><br>
-                <input type="checkbox" name="check" id="chk2">
+                <input type="checkbox" name="check2" id="chk2">
                 <label for="check">Option 2</label><br>
-                <input type="checkbox" name="check" id="chk3">
+                <input type="checkbox" name="check3" id="chk3">
                 <label for="check">Option 3</label>
             </td>
         </tr>
@@ -60,17 +73,17 @@
             <td>Dropdown</td>
             <td>
                 <select name="cars" id="" style="width: 80px;">
-                    <option value="">Volvo</option>
-                    <option value="">Saab</option>
-                    <option value="">Opel</option>
-                    <option value="">Audi</option>
+                    <option value="Volvo">Volvo</option>
+                    <option value="Saab">Saab</option>
+                    <option value="Opel">Opel</option>
+                    <option value="Audi">Audi</option>
                 </select>
             </td>
         </tr>
         <tr>
             <td>File select</td>
             <td>
-                <input type="file">
+                <input type="file" name="file">
             </td>
         </tr>
     </table>
